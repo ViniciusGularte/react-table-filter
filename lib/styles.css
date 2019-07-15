@@ -9,7 +9,7 @@
   min-width: 170px;
   left: 0;
   top: 100%;
-  border: 2px solid #8E9193; }
+  border: 2px solid #cfdbe3; }
   .filter-list.align-left {
     left: auto;
     right: 0; }
@@ -38,8 +38,8 @@
   border-radius: 2px;
   border: 1px solid #8F8F8F; }
   .filter-check-box.selected {
-    border-color: black;
-    background-color: black; }
+    border-color: #1c1646;
+    background-color: #4e40b9; }
     .filter-check-box.selected:after {
       content: '';
       position: absolute;

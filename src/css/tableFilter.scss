@@ -1,9 +1,9 @@
 $list-item-odd-color: #F7F6F6;
 $list-item-even-color: white;
 $checkbox-border-color: #8F8F8F;
-$checkbox-selected-border-color: black;
-$checkbox-selected-background-color: black;
-$list-border-color: #8E9193;
+$checkbox-selected-border-color: #1c1646;
+$checkbox-selected-background-color: #4e40b9;
+$list-border-color: #cfdbe3;
 
 @mixin transform($value) {
   -webkit-transform: #{$value};
