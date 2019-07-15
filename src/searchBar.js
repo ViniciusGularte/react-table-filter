@@ -29,7 +29,7 @@ class SearchBar extends React.Component {
 	render(){
 		return (
 			<div className="search-parent filter-list-item">
-				<input className="search-input" type="text" placeholder="search" onChange={this._searchInputChanged}/>
+				<input className="search-input" type="text" placeholder="Pesquisar" onChange={this._searchInputChanged}/>
 			</div>
 		);
 	}
