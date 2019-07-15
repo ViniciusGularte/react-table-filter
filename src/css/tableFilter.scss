@@ -102,27 +102,26 @@ $list-border-color: #8E9193;
 }
 
 .table-filter-parent{
-	position: absolute;
-	right: 3px;
-	top: 50%;
-	margin-top: -8px;
-	z-index: 10;
+  position: absolute;
+  top: 16%;
+  margin-top: -8px;
+  z-index: 10;
+  background-color: #2a6ad1;
+  padding: 1px;
+  border-radius: 2px;
+  border: 1px solid #2a6ad1;
+
 }
 
 .table-filter-icon{
-	position: relative;
-    border-top: 8px solid #2a6ad1;
-    box-sizing: border-box;
-    border-right: 6px solid transparent;
-    border-left: 6px solid transparent;
-    width: 0px;
-    height: 0px;
-    box-shadow: inset 0 4px #2a6ad1;
-    padding: 2px;
-    &.selected{
-    	border-top-color: #114dad;
-    	box-shadow: inset 0 4px #114dad;
-    }
+  position: relative;
+  border-top: 5px solid white;
+  box-sizing: border-box;
+  border-right: 3px solid transparent;
+  border-left: 4px solid transparent;
+  box-shadow: inset 0 4px white;
+  padding: 1.5px;
+  background-color: #2a6ad1;
 }
 
 .ripple {
