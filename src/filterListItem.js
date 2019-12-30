@@ -23,11 +23,11 @@ class FilterListItem extends React.Component {
       this.props.selected ? "selected " : "",
       "filter-check-box"
     ].join("");
-    const labelClass = this.props.selected ? "selected-label " : "";
+    const labelClass = this.props.selected ? "selected-label" : "";
 
     return (
       <div
-        className={"filter-list-item ripple" + labelClass}
+        className={"filter-list-item ripple " + labelClass}
         onClick={this._checkBoxClicked}
       >
         <div className={checkBoxClass}></div>
