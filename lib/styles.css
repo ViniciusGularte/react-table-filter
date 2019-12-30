@@ -15,7 +15,7 @@
     right: 0; }
 
 .selected-label {
-  background-color: #5197ff;
+  background-color: #5197ff !important;
   color: white; }
 
 .filter-list-item {

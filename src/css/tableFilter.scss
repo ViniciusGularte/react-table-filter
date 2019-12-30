@@ -39,7 +39,7 @@ $list-border-color: #cfdbe3;
   // color: black;
 }
 .selected-label {
-  background-color: $checkbox-selected-background-color;
+  background-color: $checkbox-selected-background-color !important;
   color: white;
 }
 .filter-list-item {
