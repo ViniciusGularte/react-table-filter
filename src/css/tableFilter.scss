@@ -1,9 +1,9 @@
-$list-item-odd-color: #f7f6f6;
-$list-item-even-color: white;
-$checkbox-border-color: #8f8f8f;
-$checkbox-selected-border-color: #312a5d;
-$checkbox-selected-background-color: #5197ff;
-$list-border-color: #cfdbe3;
+$list-item-odd-color: black;
+$list-item-even-color: black;
+$checkbox-border-color: #696969;
+$checkbox-selected-border-color: #696969;
+$checkbox-selected-background-color: #d4d4d4;
+$list-border-color: #e1e1e1;
 
 @mixin transform($value) {
   -webkit-transform: #{$value};
@@ -24,6 +24,10 @@ $list-border-color: #cfdbe3;
   position: relative;
 }
 .filter-list {
+  -webkit-box-shadow: 10px 10px 36px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 36px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 36px -12px rgba(0, 0, 0, 0.75);
+
   position: absolute;
   max-height: 250px;
   overflow: auto;
@@ -102,28 +106,25 @@ $list-border-color: #cfdbe3;
 .apply-filter {
   position: relative;
   padding-right: 40px;
+  padding-top: 30px !important;
 }
 
 .table-filter-parent {
   position: absolute;
-  top: 16%;
+  top: 15%;
   margin-top: -8px;
   z-index: 10;
-  background-color: #2a6ad1;
+  background-color: #5d9cec;
   padding: 1px;
   border-radius: 2px;
-  border: 1px solid #2a6ad1;
+  border: 1px solid #5899eb;
 }
 
 .table-filter-icon {
   position: relative;
-  border-top: 5px solid white;
-  box-sizing: border-box;
-  border-right: 3px solid transparent;
-  border-left: 4px solid transparent;
-  box-shadow: inset 0 4px white;
-  padding: 1.5px;
-  background-color: #2a6ad1;
+  font-size: 8px;
+  padding: 2px;
+  color: azure;
 }
 
 .ripple {
@@ -157,7 +158,7 @@ $list-border-color: #cfdbe3;
 
 .sort-parent {
   position: absolute;
-  background: #f0eeee;
+  background: #ffffff;
   z-index: 1;
   right: 6px;
   top: 6px;

@@ -52,10 +52,14 @@ body {
   min-width: 170px;
   left: 0;
   top: 100%;
-  border: 2px solid #8E9193; }
+  border: 2px solid #cfdbe3; }
   .filter-list.align-left {
     left: auto;
     right: 0; }
+
+.selected-label {
+  background-color: #5197ff !important;
+  color: white; }
 
 .filter-list-item {
   position: relative;
@@ -65,7 +69,7 @@ body {
   font-size: 14px;
   text-align: left; }
   .filter-list-item:nth-child(odd) {
-    background-color: #F7F6F6; }
+    background-color: #f7f6f6; }
   .filter-list-item:nth-child(even) {
     background-color: white; }
 
@@ -79,12 +83,12 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 2px;
-  border: 1px solid #8F8F8F; }
+  border: 1px solid #8f8f8f; }
   .filter-check-box.selected {
-    border-color: black;
-    background-color: black; }
+    border-color: #312a5d;
+    background-color: #5197ff; }
     .filter-check-box.selected:after {
-      content: '';
+      content: "";
       position: absolute;
       width: 8px;
       height: 5px;
@@ -115,24 +119,23 @@ body {
 
 .table-filter-parent {
   position: absolute;
-  right: 3px;
-  top: 50%;
+  top: 16%;
   margin-top: -8px;
-  z-index: 10; }
+  z-index: 10;
+  background-color: #2a6ad1;
+  padding: 1px;
+  border-radius: 2px;
+  border: 1px solid #2a6ad1; }
 
 .table-filter-icon {
   position: relative;
-  border-top: 8px solid gray;
+  border-top: 5px solid white;
   box-sizing: border-box;
-  border-right: 6px solid transparent;
-  border-left: 6px solid transparent;
-  width: 0px;
-  height: 0px;
-  box-shadow: inset 0 4px gray;
-  padding: 2px; }
-  .table-filter-icon.selected {
-    border-top-color: black;
-    box-shadow: inset 0 4px black; }
+  border-right: 3px solid transparent;
+  border-left: 4px solid transparent;
+  box-shadow: inset 0 4px white;
+  padding: 1.5px;
+  background-color: #2a6ad1; }
 
 .ripple {
   position: relative;
@@ -173,7 +176,7 @@ body {
   -ms-tranfsorm: scale(0, 0);
   -o-transform: scale(0, 0);
   transform: scale(0, 0);
-  opacity: .2;
+  opacity: 0.2;
   -webkit-transition: 0s;
   -moz-transition: 0s;
   -ms-transition: 0s;
@@ -182,12 +185,12 @@ body {
 
 .sort-parent {
   position: absolute;
-  background: #F0EEEE;
+  background: #f0eeee;
   z-index: 1;
   right: 6px;
   top: 6px;
   border-radius: 4px;
-  border: 1px solid #E1DDDD;
+  border: 1px solid #e1dddd;
   text-align: center;
   padding: 5px 15px;
   cursor: pointer; }
