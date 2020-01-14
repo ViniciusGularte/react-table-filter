@@ -18,7 +18,7 @@
     right: 0; }
 
 .selected-label {
-  background-color: #5d9cec !important;
+  background-color: white !important;
   color: white; }
 
 .filter-list-item {
@@ -46,15 +46,15 @@
   border: 1px solid #696969; }
   .filter-check-box.selected {
     border-color: #696969;
-    background-color: #5d9cec; }
+    background-color: white; }
     .filter-check-box.selected:after {
       content: "";
       position: absolute;
       width: 8px;
       height: 5px;
       box-sizing: border-box;
-      border-left: 2px solid white;
-      border-bottom: 2px solid white;
+      border-left: 2px solid black;
+      border-bottom: 2px solid #070707;
       top: 50%;
       margin-top: -4px;
       left: 2px;
@@ -84,14 +84,14 @@
   margin-top: -8px;
   z-index: 10;
   background-color: #5d9cec;
-  padding: 1px;
   border-radius: 2px;
   border: 1px solid #5899eb; }
 
 .table-filter-icon {
   position: relative;
-  font-size: 8px;
-  padding: 2px;
+  font-size: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   color: azure; }
 
 .ripple {
