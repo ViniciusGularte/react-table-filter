@@ -3,6 +3,7 @@ $list-item-even-color: white;
 $checkbox-border-color: #696969;
 $checkbox-selected-border-color: #696969;
 $checkbox-selected-background-color: white;
+$label-selected-background-color: #5d9cec;
 $list-border-color: #e1e1e1;
 
 @mixin transform($value) {
@@ -43,7 +44,7 @@ $list-border-color: #e1e1e1;
   // color: black;
 }
 .selected-label {
-  background-color: $checkbox-selected-background-color !important;
+  background-color: $label-selected-background-color !important;
   color: white;
 }
 .filter-list-item {
