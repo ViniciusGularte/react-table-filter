@@ -1,8 +1,8 @@
-$list-item-odd-color: black;
-$list-item-even-color: black;
+$list-item-odd-color: rgb(255, 255, 255);
+$list-item-even-color: white;
 $checkbox-border-color: #696969;
 $checkbox-selected-border-color: #696969;
-$checkbox-selected-background-color: #d4d4d4;
+$checkbox-selected-background-color: #5d9cec;
 $list-border-color: #e1e1e1;
 
 @mixin transform($value) {

@@ -18,7 +18,7 @@
     right: 0; }
 
 .selected-label {
-  background-color: #d4d4d4 !important;
+  background-color: #5d9cec !important;
   color: white; }
 
 .filter-list-item {
@@ -29,9 +29,9 @@
   font-size: 14px;
   text-align: left; }
   .filter-list-item:nth-child(odd) {
-    background-color: black; }
+    background-color: white; }
   .filter-list-item:nth-child(even) {
-    background-color: black; }
+    background-color: white; }
 
 .filter-check-box {
   position: absolute;
@@ -46,7 +46,7 @@
   border: 1px solid #696969; }
   .filter-check-box.selected {
     border-color: #696969;
-    background-color: #d4d4d4; }
+    background-color: #5d9cec; }
     .filter-check-box.selected:after {
       content: "";
       position: absolute;
